@@ -46,14 +46,7 @@ public class Web {
 						System.out.println(webEstekatuak[j]);
 						j++;
 					}
-
 				}
-				
-				
-			
-				
-				
-				
 				i = i + 1;
 			}
 			entrada.close();
