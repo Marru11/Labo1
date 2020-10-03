@@ -30,20 +30,7 @@ public class WebKatalogo {
 		return this.webLista.iterator();
 	}
 	
-	public void datuakKargatu() {
-		try{
-			Scanner entrada = new Scanner(new FileReader("index"));
-			String linea;
-			while (entrada.hasNext()) {
-				linea = entrada.nextLine();
-				System.out.println(linea);
-			}
-			entrada.close();
-		}
-		catch(IOException e) {
-			e.printStackTrace();
-		}
-	}
+	
 	
 	public void txertatuWeb(Web pWeb) {
 		this.webLista.add(pWeb);
